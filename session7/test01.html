@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #demo{
+        height: 100vh;
+        background-color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #demo1{
+        height: 200px;
+        width: 200px;
+        background-color: brown;
+        transition-property: width, height, backgroundcolor;
+        transition-duration: 6s;
+        transition-timing-function: ease-out;
+    }
+    #demo1:hover{
+        width: 400px;
+        height:400px;
+        background-color: yellow;
+    }
+</style>
+
+
+<body>
+    <div id="demo">
+        <div id="demo1">
+
+        </div>
+
+    </div>
+</body>
+</html>
